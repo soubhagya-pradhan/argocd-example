@@ -3,7 +3,7 @@ envName: dev
 useEnvNameForApp: false
 
 # if set, override all Applications to use this project
-projectOverride: testargo
+projectOverride: default
 
 
 default:
@@ -26,7 +26,7 @@ default:
     destination:
       namespace: null
       server: https://kubernetes.default.svc
-    project: testargo
+    project: default
     source:
       path: null
       repoURL: null
@@ -57,7 +57,7 @@ applications:
     destination:
       namespace: argocdns
       server: null
-    project: testargo
+    project: default
     source:
       path: .
       repoURL: https://github.com/soubhagya-pradhan/guest-book-test
@@ -71,7 +71,7 @@ applications:
     destination:
       namespace: argocdns
       server: null
-    project: testargo
+    project: default
     source:
       path: charts/hello-world
       repoURL: https://github.com/soubhagya-pradhan/helm-hello-world
