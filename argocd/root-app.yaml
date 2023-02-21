@@ -15,7 +15,7 @@ spec:
       valueFiles:
       - values.yaml
     path: argocd/dev
-    repoURL: https://https://github.com/soubhagya-pradhan/argocd-example.git
+    repoURL: https://github.com/soubhagya-pradhan/argocd-example.git
     targetRevision: HEAD
   syncPolicy:
     automated:
