@@ -57,7 +57,7 @@ applications:
     destination:
       namespace: argocd
       server: null
-    project: argocdtest
+    project: testargo
     source:
       path: .
       repoURL: https://github.com/soubhagya-pradhan/guest-book-test
@@ -69,9 +69,9 @@ applications:
   hello-world:
     enabled: true
     destination:
-      namespace: argocdtest
+      namespace: argocd
       server: null
-    project: default
+    project: testargo
     source:
       path: charts/hello-world
       repoURL: https://github.com/soubhagya-pradhan/helm-hello-world
