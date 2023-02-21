@@ -1,9 +1,9 @@
 # your override should supply an envName
-envName: null
+envName: dev
 useEnvNameForApp: false
 
 # if set, override all Applications to use this project
-# projectOverride: default
+projectOverride: default
 
 
 default:
