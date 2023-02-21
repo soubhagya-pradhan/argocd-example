@@ -3,7 +3,7 @@ envName: dev
 useEnvNameForApp: false
 
 # if set, override all Applications to use this project
-projectOverride: default
+projectOverride: testargo
 
 
 default:
@@ -57,7 +57,7 @@ applications:
     destination:
       namespace: argocd
       server: null
-    project: default
+    project: argocdtest
     source:
       path: .
       repoURL: https://github.com/soubhagya-pradhan/guest-book-test
@@ -69,7 +69,7 @@ applications:
   hello-world:
     enabled: true
     destination:
-      namespace: argocd
+      namespace: argocdtest
       server: null
     project: default
     source:
