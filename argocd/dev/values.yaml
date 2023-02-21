@@ -26,7 +26,7 @@ default:
     destination:
       namespace: null
       server: https://kubernetes.default.svc
-    project: default
+    project: testargo
     source:
       path: null
       repoURL: null
