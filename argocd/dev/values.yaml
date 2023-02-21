@@ -55,7 +55,7 @@ applications:
   guest-book:
     enabled: true
     destination:
-      namespace: argocd
+      namespace: argocdns
       server: null
     project: testargo
     source:
@@ -69,7 +69,7 @@ applications:
   hello-world:
     enabled: true
     destination:
-      namespace: argocd
+      namespace: argocdns
       server: null
     project: testargo
     source:
